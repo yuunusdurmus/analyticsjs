@@ -72,6 +72,12 @@ module.exports = {
                 push: function(data) {
                     analytics.track('Checkout Step Completed', data);
                 }
+            },
+            {
+                type: 'Order Completed',
+                push: function(data) {
+                    analytics.track('Order Completed', data);
+                }
             }
         ]
     }
