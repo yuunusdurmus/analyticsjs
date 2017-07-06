@@ -1,4 +1,3 @@
-
 var Analytics = require('./library/analytics');
 var AnalyticsActions = require('./library/analyticsActions');
 
