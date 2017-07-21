@@ -13,6 +13,7 @@
     "@segment/analytics.js-integration-google-tag-manager": "git+https://github.com/yuunusdurmus/analytics.js-integration-google-tag-manager.git#c65cea79132dd60825ddff1ae178f2e940845363",
     "@segment/analytics.js-integration-gtm-enhanced": "git+https://github.com/yuunusdurmus/analytics.js-integration-gtm-enhanced.git#a076cf28fb854df7779868cbe3c0444b226c6fd3",
     "@segment/analytics.js-integration-mobitek": "git+https://github.com/yuunusdurmus/analytics.js-integration-mobitek.git#571ab293b28523e0aee0e92deb48dec591e1b5b1",
+    "@segment/gtm-inbound-data-manipulator": "git+https://github.com/yuunusdurmus/gtm-inbound-data-manipulator#1154acacd07b88b18ffae50daab7fdfa007a1b6f",
     "obj-case": "git+https://github.com/yuunusdurmus/obj-case.git#deacc65c345829a59a3b661d41a4d1057230495a"
   }
 }
