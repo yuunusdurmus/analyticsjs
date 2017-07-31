@@ -25,7 +25,7 @@ module.exports = {
             }
         }
 
-        window.AnalyticsArray = function(arr) {
+        var AnalyticsArray = function(arr) {
             var array = arr || [];
             array.push = function(){
                 Array.prototype.push.apply(this, arguments);
@@ -37,8 +37,6 @@ module.exports = {
             return array;
         };
 
-        window.initAnalytics = function(arr) {
-            arrayToPushAnalytics(arr)
-        }
+        return new AnalyticsArray;
     }
-} 
+}
