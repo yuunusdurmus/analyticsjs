@@ -197,8 +197,15 @@ module.exports = {
                 push: function(data) {
                   analytics.track('Product Reviewed', data);
                 }
-            }
+            },
 
+            //Registration
+            {
+                type: 'Registration Completed',
+                push: function(data) {
+                    analytics.track('Registration Completed', data);
+                }
+            }
         ]
     }
 }
