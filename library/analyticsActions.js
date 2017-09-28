@@ -38,13 +38,13 @@ module.exports = {
             {
                 type: 'Promotion Viewed',
                 push: function(data) {
-                  analytics.track('Product List Viewed', data);
+                  analytics.track('Promotion Viewed', data);
                 }
             },
             {
                 type: 'Promotion Clicked',
                 push: function(data) {
-                  analytics.track('Product List Filtered', data);
+                  analytics.track('Promotion Clicked', data);
                 }
             },
             
